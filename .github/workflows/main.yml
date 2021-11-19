@@ -30,6 +30,7 @@ jobs:
     - name: crowdin task
       uses: crowdin/github-action@1.4.1
       with:
+        debug_mode: true
         download_translations: true
         push_translations: false
         create_pull_request: true
